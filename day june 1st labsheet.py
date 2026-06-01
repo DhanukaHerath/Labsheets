@@ -43,8 +43,7 @@ else:
 
 #Q5
 age = int(input("Enter the age: "))
-if age >= 18:
-    print("youy are Eligible to Vote this time")
+if age >= 18nprint("youy are Eligible to Vote this time")
 else:
     print("You can't Vote this time")
 
@@ -76,12 +75,29 @@ num8 = int(input("Enter number 3 :"))
 
 if num6>num7:
     if num6>num8:
-        print("Largest number is number 1")
+        print(f"Largest number is {num6}")
     else:
-        print("Largest number is number 3")
+        print(f"Largest number is {num8}")
 else:
     if num7>num8:
-        print("Largest number is number 2")
+        print(f"Largest number is {num7}")
     else:
-        print("Largest number is number 3")
+        print(f"Largest number is {num8}")
+
+#Q9
+
+mark = int(input("Enter the Marks: "))
+
+if 90<=mark<=100:
+    print("A")
+elif 80<=mark<=89:
+    print("B")
+elif 70<=mark<79:
+    print("C")
+elif 60<=mark<=69:
+    print("D")
+elif  50<=mark<=59:
+    print("E")
+else:
+    print("F")
         
