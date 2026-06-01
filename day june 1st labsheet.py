@@ -67,3 +67,21 @@ elif num5<0:
     print("Negative")
 else:
     print("Zero")
+
+#Q8
+
+num6 = int(input("Enter number 1 :"))
+num7 = int(input("Enter number 2 :"))
+num8 = int(input("Enter number 3 :"))
+
+if num6>num7:
+    if num6>num8:
+        print("Largest number is number 1")
+    else:
+        print("Largest number is number 3")
+else:
+    if num7>num8:
+        print("Largest number is number 2")
+    else:
+        print("Largest number is number 3")
+        
