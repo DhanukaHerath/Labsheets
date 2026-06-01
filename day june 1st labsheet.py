@@ -52,7 +52,7 @@ else:
 
 num4 = int(input("Enter a number: ")
 
-if num4%2 = 0:
+if num4%2 == 0:
     print("Even")
 else:
     print("Odd")
