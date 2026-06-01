@@ -42,3 +42,28 @@ else:
 
 
 #Q5
+age = int(input("Enter the age: "))
+if age >= 18:
+    print("youy are Eligible to Vote this time")
+else:
+    print("You can't Vote this time")
+
+#Q6
+
+num4 = int(input("Enter a number: ")
+
+if num4%2 = 0:
+    print("Even")
+else:
+    print("Odd")
+
+#Q7
+
+num5 = int(input("Enter a number: ")
+
+if num5>0:
+    print("Positive")
+elif num5<0:
+    print("Negative")
+else:
+    print("Zero")
