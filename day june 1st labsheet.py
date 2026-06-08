@@ -102,4 +102,11 @@ else:
     print("F")
 
 #Q10
-        
+
+n_1 = int(input("Enter the first number: "))
+n_2 = int(input("Enter the Second number: "))
+syn = input("Enter the command: '+', '-' , '*' , '/' ")
+
+if syn == '+':
+    out = n_1 + n_2 
+elif syn == 
